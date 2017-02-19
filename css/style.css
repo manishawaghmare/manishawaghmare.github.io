@@ -105,7 +105,7 @@ a:focus {
 /* Home Style */
 #home {
     background: url(../img/bg/01.jpg);
-    background-size: cover center;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
