@@ -48,6 +48,13 @@
     <![endif]-->
   </head>
   <body>
+    <script>
+            function blinker() {
+                $('.blinking').fadeOut(500);
+                $('.blinking').fadeIn(500);
+            }
+            setInterval(blinker, 3200);
+            </script>
 
     <!-- Main Navigation
     ================================================== -->
@@ -73,7 +80,7 @@
                 <li><a href="#experience" class="scroll">Experience</a></li>
                 <li><a href="#awards" class="scroll">AWARD & FELITATION</a></li>
                 <li><a href="#everest" class="scroll"><font color="#ffd700" >Mission Mt. Everest</font></a></li>
-                <li><a href="#support" class="scroll">Support Me!</a></li>
+                <li><a href="#support" class="scroll blinking">Support Me!</a></li>
                 <li><a href="#contact" class="scroll">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -919,6 +926,7 @@
     <section id="support">
         <div class="container"> <!-- container -->
 
+
             <div class="section-header">
             </div>
 
@@ -929,7 +937,7 @@
                 </div> <!-- End Left Content Col 6 -->
                 <div class="col-md-5 text-right">  <!-- Left Content Col 6 -->
                     <img src="img/missionEverest/everest_4.jpg" class="intro-logo img-responsive" alt="free-template">
-                    <a href="https://www.ketto.org/fundraiser/manishawaghmare?utm_source=campaigner&utm_medium=whatsappShare&utm_campaign=manishawaghmare&utm_content=178796&shby=1" target="_blank"><img src="img/missionEverest/contribute-button-1024x347.png" class="intro-logo img-responsive" alt="free-template"></a>
+                    <a href="https://www.ketto.org/fundraiser/manishawaghmare?utm_source=campaigner&utm_medium=whatsappShare&utm_campaign=manishawaghmare&utm_content=178796&shby=1" target="_blank"><img src="img/missionEverest/contribute-button-1024x347.png" class="intro-logo img-responsive blinking" alt="free-template"></a>
                     <img src="img/missionEverest/support_5.jpg" class="intro-logo img-responsive" alt="free-template">
                 </div> <!-- End Left Content Col 6 -->
 
